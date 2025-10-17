@@ -17,7 +17,6 @@
           />
         </figure>
         <nav aria-label="Social Links" data-testid="test-user-social-links">
-          <h3>Contacts</h3>
           <ul>
             <li>
               <a
@@ -36,19 +35,19 @@
             </li>
           </ul>
         </nav>
+        <header>
+          <h2 data-testid="test-user-name" class="name">Allan Bartoo Chementer</h2>
+        </header>
       </section>
 
       <section class="description">
-        <header>
-          <h2 data-testid="test-user-name">Allan Bartoo Chementer</h2>
-        </header>
         <div>
           <h3>Bio</h3>
           <p data-testid="test-user-bio">
             Software developer passionate about building accessible and clean
             web applications.
           </p>
-          <p>Current time: 00:00<span data-testid="test-user-time"></span></p>
+          <p class="time">Current time: <span data-testid="test-user-time"></span></p>
         </div>
 
         <div class="flex">
@@ -71,5 +70,7 @@
         </div>
       </section>
     </article>
+
+    <script src="script.js"></script>
   </body>
 </html>

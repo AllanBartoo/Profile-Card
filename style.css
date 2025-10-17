@@ -47,11 +47,50 @@ body {
 }
 
 .socials {
-  height: 20px;
+  height: 16px;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: disc inside;
+  padding: 0;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin-block: 10px;
+}
+
+.time {
+  font-weight: 500;
+  color: #444;
+  background: #f0f8ff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-block: 10px;
 }
 
 .left {
-    text-align: center;
+  text-align: center;
+}
+
+img:hover {
+  outline: 8px solid ;
 }
 
 @media (min-width: 500px) {
